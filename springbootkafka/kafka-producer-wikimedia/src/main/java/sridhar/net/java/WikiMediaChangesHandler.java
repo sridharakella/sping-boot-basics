@@ -34,7 +34,7 @@ public class WikiMediaChangesHandler implements EventHandler {
 
     @Override
     public void onMessage(String s, MessageEvent messageEvent) throws Exception {
-        LOG.info("event data ---> %s", messageEvent.getData());
+        LOG.info(String.format("event data ---> %s", messageEvent.getData()));
 
         kafkaTemplate.send(topic, messageEvent.getData());
 

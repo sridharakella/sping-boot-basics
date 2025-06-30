@@ -17,6 +17,7 @@
 
 		<!-- Module being added  -->
 		<module>kafka-producer-wikimedia</module>
+		<module>kafka-consumer-database</module>
 	</modules>
 	<!-- to create a maven multi model project -->
 	<packaging>pom</packaging>
