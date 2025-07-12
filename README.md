@@ -22,6 +22,11 @@ macbookpro@macbooks-mbp kafka_2.13-4.0.0 % bin/kafka-console-consumer.sh --topic
  import  {HttpClientModule } from '@angular/common'; 
  // app.module.ts
  Interpolate
- 
+
+
+ npm i
+ npm i font-awesome
+ ng add ngx-bootstrap
+ ng serve
  
 
