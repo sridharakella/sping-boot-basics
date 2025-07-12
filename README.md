@@ -24,8 +24,8 @@ macbookpro@macbooks-mbp kafka_2.13-4.0.0 % bin/kafka-console-consumer.sh --topic
  Interpolate
 
 
- npm i
- npm i font-awesome
+ npm i <br/>
+ npm i font-awesome <
  ng add ngx-bootstrap
  ng serve
  
