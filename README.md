@@ -25,8 +25,8 @@ macbookpro@macbooks-mbp kafka_2.13-4.0.0 % bin/kafka-console-consumer.sh --topic
 
 
  npm i <br/>
- npm i font-awesome <
- ng add ngx-bootstrap
- ng serve
+ npm i font-awesome <br/>
+ ng add ngx-bootstrap <br/>
+ ng serve <br/>
  
 
