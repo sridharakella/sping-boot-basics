@@ -29,5 +29,9 @@ macbookpro@macbooks-mbp kafka_2.13-4.0.0 % bin/kafka-console-consumer.sh --topic
  ng add ngx-bootstrap <br/>
  ng serve <br/>
  ng g c nav-bar  --skip-tests <br/>
+ in the client folder
+  ng g m core <br/>
+  mg g m shared <br/>
+  
  
 
