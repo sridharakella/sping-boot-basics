@@ -33,9 +33,12 @@ macbookpro@macbooks-mbp kafka_2.13-4.0.0 % bin/kafka-console-consumer.sh --topic
   ng g m core <br/>
   ng g m shared <br/>
 
-  macbookpro@MacBooks-MacBook-Pro newclient % ng g m store  <br/>
+  macbookpro@MacBooks-MacBook-Pro newclient % ng g m store  <br/>   ( create a module)
 CREATE src/app/store/store.module.ts (191 bytes)  <br/>
-macbookpro@MacBooks-MacBook-Pro newclient % ng g c store/store --flat <br/>
+macbookpro@MacBooks-MacBook-Pro newclient % ng g c store/store --flat <br/> (create a component)
+
+macbookpro@MacBooks-MacBook-Pro newclient % ng g s store/store --flat --skip-tests     ( create a service)
+CREATE src/app/store/store.service.ts (134 bytes)
   
  
 
