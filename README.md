@@ -39,6 +39,9 @@ macbookpro@MacBooks-MacBook-Pro newclient % ng g c store/store --flat (create a 
 
 macbookpro@MacBooks-MacBook-Pro newclient % ng g s store/store --flat --skip-tests     ( create a service)  <br/> 
 CREATE src/app/store/store.service.ts (134 bytes) <br/> 
+
+macbookpro@MacBooks-MacBook-Pro newclient % ng g m store/store-routing --flat   <br/>
+CREATE src/app/store/store-routing.module.module.ts (204 bytes) <br/>
   
  
 
