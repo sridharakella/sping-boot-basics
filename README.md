@@ -31,7 +31,11 @@ macbookpro@macbooks-mbp kafka_2.13-4.0.0 % bin/kafka-console-consumer.sh --topic
  ng g c nav-bar  --skip-tests <br/>
  in the client folder
   ng g m core <br/>
-  mg g m shared <br/>
+  ng g m shared <br/>
+
+  macbookpro@MacBooks-MacBook-Pro newclient % ng g m store  <br/>
+CREATE src/app/store/store.module.ts (191 bytes)  <br/>
+macbookpro@MacBooks-MacBook-Pro newclient % ng g c store/store --flat <br/>
   
  
 
